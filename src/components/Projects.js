@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 const Projects = () => {
 	return (
 		<div className='Projects pt-5 w-xs-100 w-md-75'>
-			<Container className='border border-primary'>
+			<Container>
 				<p className='projects-header mt-5' id='work'>Selected Projects</p>
 				<Works />
 			</Container>

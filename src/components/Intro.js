@@ -1,27 +1,23 @@
 import React from 'react';
-import '../Intro.css';
-import { Image, Col, Row } from 'react-bootstrap';
+import '../styles/Intro.css';
+import { Container, Image, Col, Row } from 'react-bootstrap';
 
 const Intro = () => {
 	return (
 		<div className='hero-image'>
-			<div className='layer d-flex'>
-				<div className='hero-text mx-auto my-auto p-3 w-sm-75 w-md-50'>
-					<Row className='mb-2'>
-						<Col xs={9} md={12}>
-							<h1 className='display-4 '>Full stack web developer</h1>
+			<div className='layer'>
+				<Container className='hero-text p-4 d-flex' fluid='lg'>
+					<Row className=' align-content-center justify-content-sm-center'>
+						<Col className='mb-3' xs={9} sm={8}>
+							<div className='title display-4'>Full stack web developer</div>
 						</Col>
-					</Row>
-					<Row className='mb-4'>
-						<Col md={8}>
+						<Col className='mb-4' xs={10} sm={8}>
 							<p>
 								I build useful and functional web applications for innovative
 								startups and companies.
 							</p>
 						</Col>
-					</Row>
-					<Row>
-						<Col>
+						<Col xs={8}>
 							<p id='work'>
 								SEE MY WORK
 								<span className='ml-1'>
@@ -30,7 +26,7 @@ const Intro = () => {
 							</p>
 						</Col>
 					</Row>
-				</div>
+				</Container>
 			</div>
 		</div>
 	);

@@ -1,0 +1,27 @@
+.Projects {
+	color: white;
+	height: 600px;
+	background-color: #010101;
+}
+
+.projects-header,
+.project-link {
+	color: #36c17c;
+}
+
+.projects-header {
+	position: relative;
+	overflow: hidden;
+}
+
+.projects-header:after {
+	display: inline-block;
+	content: '';
+	height: 1px;
+	background: white;
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	margin-top: 1px;
+	margin-left: 10px;
+}

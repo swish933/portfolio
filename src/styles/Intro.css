@@ -20,11 +20,11 @@
 	color: #36c17c;
 }
 
-/* .hero-text {
-	border: 1px solid salmon;
-} */
+.hero-text {
+	height: inherit;
+}
 
-.hero-text h1 {
+.hero-text .title {
 	color: #effff7;
 }
 

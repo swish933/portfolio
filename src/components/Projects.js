@@ -1,13 +1,16 @@
 import React from 'react';
-import { Container, Row } from 'react-bootstrap';
+import '../styles/Projects.css';
+import Works from './Project';
+import { Container } from 'react-bootstrap';
 
 const Projects = () => {
 	return (
-		<Container>
-			<Row>
-				<h4>Selected Projects</h4>
-			</Row>
-		</Container>
+		<div className='Projects pt-5'>
+			<Container className='w-xs-75 w-md-50'>
+				<p className='projects-header mt-2'>Selected Projects</p>
+				<Works />
+			</Container>
+		</div>
 	);
 };
 

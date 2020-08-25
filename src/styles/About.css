@@ -1,36 +1,29 @@
-.Projects {
-	color: white;
+.About {
+	color: gray;
 	background-color: #010101;
 }
 
-.projects-header,
-.project-link {
+.about-header,
+.cv-link {
 	color: #36c17c;
 }
 
-.project-name {
-	color: #effff7;
-}
-
-.projects-header {
+.about-header {
 	position: relative;
 	overflow: hidden;
 	font-size: 1.12em;
 }
 
-.project-description {
+.about-description > p {
+	line-height: 1.7;
 	color: #949e99;
 }
 
-.project-tech {
-	color: #757575;
-}
-
-.projects-header::after {
+.about-header::after {
 	display: inline-block;
 	content: '';
 	height: 1px;
-	background: gray;
+	background-color: gray;
 	position: absolute;
 	width: 100%;
 	top: 50%;

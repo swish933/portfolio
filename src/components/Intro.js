@@ -4,12 +4,14 @@ import { Container, Image, Col, Row } from 'react-bootstrap';
 
 const Intro = () => {
 	return (
-		<div className='hero-image'>
+		<div className='Intro hero-image'>
 			<div className='layer'>
 				<Container className='hero-text p-4 d-flex' fluid='lg'>
 					<Row className=' align-content-center justify-content-sm-center'>
-						<Col className='mb-3 pl-sm-5' xs={9} sm={8} md={9} >
-							<div className='title display-4 text-lg-center'>Full stack web developer</div>
+						<Col className='mb-3 pl-sm-5' xs={9} sm={8} md={9}>
+							<div className='title display-4 text-lg-center'>
+								Full stack web developer
+							</div>
 						</Col>
 						<Col className='mb-4 pl-sm-5 text-lg-center' xs={10} sm={8} md={9}>
 							<p>

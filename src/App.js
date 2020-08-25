@@ -1,8 +1,11 @@
 import React from 'react';
-import './styles/App.css';
+import './App.css';
 import NavBar from './components/Navbar';
 import Intro from './components/Intro';
 import Projects from './components/Projects';
+import About from './components/About';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 
 function App() {
 	return (
@@ -10,6 +13,9 @@ function App() {
 			<NavBar />
 			<Intro />
 			<Projects />
+			<About />
+			<Contact />
+			<Footer />
 		</div>
 	);
 }

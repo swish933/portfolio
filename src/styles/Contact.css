@@ -1,38 +1,38 @@
-.Projects {
-	color: white;
+.Contact {
 	background-color: #010101;
+	color: white;
 }
 
-.projects-header,
-.project-link {
+.contact-header,
+.contact-detail {
 	color: #36c17c;
 }
 
-.project-name {
-	color: #effff7;
-}
-
-.projects-header {
+.contact-header {
 	position: relative;
 	overflow: hidden;
 	font-size: 1.12em;
 }
 
-.project-description {
+.contact-details h3 {
+	color: #effff7;
+}
+
+.contact-details p {
 	color: #949e99;
 }
 
-.project-tech {
-	color: #757575;
+.contact-detail {
+	margin-left: 1.5em;
 }
 
-.projects-header::after {
+.contact-header::after {
 	display: inline-block;
 	content: '';
 	height: 1px;
-	background: gray;
-	position: absolute;
 	width: 100%;
+	background-color: gray;
+	position: absolute;
 	top: 50%;
 	margin-top: 1px;
 	margin-left: 10px;

@@ -3,18 +3,18 @@ import { Container, Row, Col, Image } from 'react-bootstrap';
 
 const Project = () => {
 	return (
-		<Container className='Project mt-3'>
+		<Container className='Project mt-5 p-3'>
 			<Row>
-				<Col xs={12} md={6} lg={5}>
-					<div className='Project-name display-4'>Coin Price</div>
+				<Col xs={12} md={6} lg={5} className='pl-md-5'>
+					<div className='project-name display-4'>Coin Price</div>
 					<p>
-						<sub className='tech text-muted'>
+						<sub className='project-tech'>
 							HTML, CSS, Bootstrap, JavaScript, Jquery, Coinbase API
 						</sub>
 					</p>
 				</Col>
-				<Col xs={12} md={6} lg={7} >
-					<p className='description pt-2'>
+				<Col xs={12} md={6} lg={7}>
+					<p className='project-description pt-md-3'>
 						Web app that uses the coin base API to show current prices of
 						certain cryptocurrencies in some physical currency.
 					</p>
@@ -22,10 +22,7 @@ const Project = () => {
 			</Row>
 
 			<Row>
-				<Col
-					className='d-flex justify-content-md-end'
-					xs={12}
-					>
+				<Col className='d-flex justify-content-md-end' xs={12}>
 					<p className='text-uppercase project-link'>
 						see project
 						<span className='ml-1'>

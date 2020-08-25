@@ -4,7 +4,7 @@ import { Container, Col } from 'react-bootstrap';
 
 const Contact = () => {
 	return (
-		<div className='Contact w-xs-100 w-md-75 py-5' id='contact'>
+		<div className='Contact w-xs-100 w-md-75 pt-5' id='contact'>
 			<Container fluid='md' className='p-2'>
 				<p className='contact-header mt-5'>Contact</p>
 				<Col xs={12} md={8} className='contact-details pl-md-5 mt-5'>

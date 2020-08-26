@@ -4,7 +4,7 @@ import { Container, Col, Image } from 'react-bootstrap';
 
 const About = () => {
 	return (
-		<div className='About pt-5 w-xs-100 w-md-75' id='about'>
+		<div className='About pt-5' id='about'>
 			<Container fluid='md' className='p-2'>
 				<p className='about-header mt-5'>About</p>
 				<Col xs={12} md={8} className='about-description mt-5 pl-md-5'>

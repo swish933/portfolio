@@ -6,7 +6,7 @@ import { Container } from 'react-bootstrap';
 const Projects = () => {
 	return (
 		<div className='Projects pt-5' id='work'>
-			<Container fluid='md'>
+			<Container fluid='md' className='py-3'>
 				<p className='projects-header mt-5'>Selected Projects</p>
 				<Works />
 			</Container>

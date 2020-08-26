@@ -5,7 +5,7 @@ const Project = () => {
 	return (
 		<Container className='Project mt-5 p-3'>
 			<Row>
-				<Col xs={12} md={6} lg={5} className='pl-md-5'>
+				<Col xs={12} md={6} lg={5} className='pl-md-4'>
 					<div className='project-name display-4'>Coin Price</div>
 					<p>
 						<sub className='project-tech'>

@@ -4,7 +4,7 @@ import { Container, Navbar, Nav } from 'react-bootstrap';
 
 const NavBar = () => {
 	return (
-		<Navbar className='Nav' sticky='top' variant='dark' expand='md'>
+		<Navbar className='Nav' fixed='top' variant='dark' expand='md'>
 			<Container>
 				<Navbar.Text href='#home' class='nav-brand'>
 					Nomso Ikem

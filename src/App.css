@@ -10,6 +10,8 @@
 .Footer {
 	background-color: #effff7;
 	color: black;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 13px;
 }
 
 .project-link,
@@ -25,20 +27,28 @@
 
 .arrow-down {
 	top: -3px;
-	left: 110px;
+	left: 105px;
+	-webkit-transition: top 0.3s ease-in;
+	-moz-transition: top 0.3s ease-in;
+	-o-transition: top 0.3s ease-in;
+	-ms-transition: top 0.3s ease-in;
 	transition: top 0.3s ease-in;
 }
 
 .project-link .arrow-up {
-	left: 100px;
+	left: 97px;
 }
 
 .cv-link .arrow-up {
-	left: 80px;
+	left: 77px;
 }
 
 .arrow-up {
 	bottom: 3px;
+	-webkit-transition: bottom 0.3s ease-in, left 0.3s ease-in;
+	-moz-transition: bottom 0.3s ease-in, left 0.3s ease-in;
+	-ms-transition: bottom 0.3s ease-in, left 0.3s ease-in;
+	-o-transition: bottom 0.3s ease-in, left 0.3s ease-in;
 	transition: bottom 0.3s ease-in, left 0.3s ease-in;
 }
 
@@ -48,12 +58,12 @@
 
 .project-link:hover > .arrow-up {
 	bottom: 10px;
-	left: 105px;
+	left: 103px;
 }
 
 .cv-link:hover > .arrow-up {
 	bottom: 10px;
-	left: 85px;
+	left: 83px;
 }
 
 .project-link:hover,

@@ -17,3 +17,7 @@
 	font-size: 13px;
 	color: #949e99;
 }
+
+.nav-brand:hover {
+	color: #36c17c;
+}

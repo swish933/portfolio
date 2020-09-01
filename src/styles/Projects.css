@@ -9,22 +9,40 @@
 	color: #36c17c;
 }
 
+.project-tech,
+.project-description,
+.project-link {
+	font-family: Roboto, sans-serif;
+}
+
+.projects-header,
+.project-name {
+	font-family: Libre Baskerville, serif;
+}
+
 .project-name {
 	color: #effff7;
+	font-size: 40px;
 }
 
 .projects-header {
 	position: relative;
 	overflow: hidden;
-	font-size: 1.12em;
+	font-size: 18px;
 }
 
 .project-description {
 	color: #949e99;
+	font-size: 16px;
 }
 
 .project-tech {
 	color: #757575;
+	font-size: 12px;
+}
+
+.project-link {
+	font-size: 15px;
 }
 
 .projects-header::after {

@@ -6,10 +6,12 @@ const NavBar = () => {
 	return (
 		<Navbar className='Nav' sticky='top' variant='dark' expand='md'>
 			<Container>
-				<Navbar.Brand href='#home'>Nomso Ikem</Navbar.Brand>
+				<Navbar.Text href='#home' class='nav-brand'>
+					Nomso Ikem
+				</Navbar.Text>
 				<Navbar.Toggle aria-controls='basic-navbar-nav' />
 				<Navbar.Collapse id='basic-navbar-nav'>
-					<Nav className='mx-md-auto'>
+					<Nav className='mx-md-auto nav-links'>
 						<Nav.Link href='#work' className='mx-3'>
 							Work
 						</Nav.Link>
@@ -20,7 +22,7 @@ const NavBar = () => {
 							Contact
 						</Nav.Link>
 					</Nav>
-					<Navbar.Text>
+					<Navbar.Text class='hire-text'>
 						<div class='led-green'></div>
 						Available for hire
 					</Navbar.Text>

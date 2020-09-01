@@ -12,11 +12,13 @@
 .about-header {
 	position: relative;
 	overflow: hidden;
-	font-size: 1.12em;
+	font-family: 'Libre Baskerville', serif;
+	font-size: 18px;
 }
 
 .about-description > p {
 	line-height: 1.7;
+	font-size: 16px;
 	color: #949e99;
 }
 
@@ -30,4 +32,13 @@
 	top: 50%;
 	margin-top: 1px;
 	margin-left: 10px;
+}
+
+.about-description,
+.cv-link {
+	font-family: Roboto, sans-serif;
+}
+
+.cv-link {
+	font-size: 15px;
 }

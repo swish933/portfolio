@@ -22,7 +22,7 @@ const Intro = () => {
 						<Col className='pl-sm-5' xs={8} md={9}>
 							<p id='work-btn' className='ml-lg-5'>
 								SEE MY WORK
-								<span className='ml-1 arrow-down'>
+								<span className='arrow-down'>
 									<Image src='/assets/button-arrow-down.svg' alt='arrow-down' />
 								</span>
 							</p>

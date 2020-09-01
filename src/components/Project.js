@@ -25,7 +25,7 @@ const Project = () => {
 				<Col className='d-flex justify-content-md-end' xs={12}>
 					<p className='text-uppercase project-link'>
 						see project
-						<span className='ml-1'>
+						<span className='ml-1 arrow-up'>
 							<Image src='/assets/button-arrow-up.svg' alt='arrow-down' />
 						</span>
 					</p>

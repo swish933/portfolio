@@ -23,7 +23,7 @@ const About = () => {
 				<Col xs={12} className='pl-md-5 mt-4'>
 					<p className='text-uppercase cv-link mt-2'>
 						see my cv
-						<span className='ml-1'>
+						<span className='ml-1 arrow-up'>
 							<Image src='/assets/button-arrow-up.svg' alt='arrow-down' />
 						</span>
 					</p>

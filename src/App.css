@@ -5,11 +5,59 @@
 	height: 6px;
 	background-color: #26da80;
 	border-radius: 50%;
-	/* box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px,
-		#89ff00 0 2px 12px; */
 }
 
 .Footer {
 	background-color: #effff7;
 	color: black;
+}
+
+.project-link,
+.cv-link,
+#work-btn {
+	position: relative;
+}
+
+.arrow-down,
+.arrow-up {
+	position: absolute;
+}
+
+.arrow-down {
+	top: -3px;
+	left: 110px;
+	transition: top 0.3s ease-in;
+}
+
+.project-link .arrow-up {
+	left: 100px;
+}
+
+.cv-link .arrow-up {
+	left: 80px;
+}
+
+.arrow-up {
+	bottom: 3px;
+	transition: bottom 0.3s ease-in, left 0.3s ease-in;
+}
+
+#work-btn:hover > .arrow-down {
+	top: 5px;
+}
+
+.project-link:hover > .arrow-up {
+	bottom: 10px;
+	left: 105px;
+}
+
+.cv-link:hover > .arrow-up {
+	bottom: 10px;
+	left: 85px;
+}
+
+.project-link:hover,
+.cv-link:hover,
+#work-btn:hover {
+	color: #fff;
 }

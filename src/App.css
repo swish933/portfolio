@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .led-green {
 	display: inline-block;
 	margin: 0 4px 3px 0px;

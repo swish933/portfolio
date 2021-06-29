@@ -21,12 +21,28 @@ const About = () => {
 					</p>
 				</Col>
 				<Col xs={12} className='pl-md-5 mt-4'>
-					<p className='text-uppercase cv-link mt-2'>
-						see my cv
-						<span className='ml-1 arrow-up'>
+					<a
+						className='text-uppercase cv-link mt-2 '
+						href='https://docs.google.com/document/d/1da7OaeM_I21N72hpVS2zboO11B2lORHHVdskjIgQxOU/edit?usp=sharing'
+						target='_blank'
+						rel='noopener noreferrer'>
+						see my resume
+						<span className='ml-5 arrow-up'>
 							<Image src='/assets/button-arrow-up.svg' alt='arrow-down' />
 						</span>
-					</p>
+					</a>
+				</Col>
+				<Col xs={12} className='pl-md-5 mt-3'>
+					<a
+						className='text-uppercase cv-link mt-2 '
+						href='https://github.com/swish933'
+						target='_blank'
+						rel='noopener noreferrer'>
+						github
+						<span className='arrow-up'>
+							<Image src='/assets/button-arrow-up.svg' alt='arrow-down' />
+						</span>
+					</a>
 				</Col>
 			</Container>
 		</div>

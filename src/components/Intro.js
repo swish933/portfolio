@@ -20,12 +20,12 @@ const Intro = () => {
 							</p>
 						</Col>
 						<Col className='pl-sm-5' xs={8} md={9}>
-							<p id='work-btn' className='ml-lg-5'>
+							<a id='work-btn' href='#work' className='ml-lg-5'>
 								SEE MY WORK
 								<span className='arrow-down'>
 									<Image src='/assets/button-arrow-down.svg' alt='arrow-down' />
 								</span>
-							</p>
+							</a>
 						</Col>
 					</Row>
 				</Container>

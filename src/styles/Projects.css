@@ -22,18 +22,18 @@
 
 .project-name {
 	color: #effff7;
-	font-size: 40px;
+	font-size: 36px;
 }
 
 .projects-header {
 	position: relative;
 	overflow: hidden;
-	font-size: 18px;
+	font-size: 1.1rem;
 }
 
 .project-description {
 	color: #949e99;
-	font-size: 16px;
+	font-size: 1rem;
 }
 
 .project-tech {

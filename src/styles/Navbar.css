@@ -2,6 +2,14 @@
 	background-color: #000000;
 }
 
+.nav-brand {
+	cursor: pointer;
+	color: #949e99 !important;
+	font-size: 14px;
+}
+
+
+
 .nav-links,
 .nav-brand {
 	font-family: 'Libre Baskerville', serif;
@@ -15,7 +23,7 @@
 .nav-links,
 .hire-text {
 	font-size: 13px;
-	color: #949e99;
+	color: #949e99 !important;
 }
 
 .nav-brand:hover {
